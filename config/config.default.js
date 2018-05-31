@@ -6,6 +6,7 @@ module.exports = {
   title: 'Tiny.js',
   description: '一款轻量级 HTML5 2D 游戏引擎',
   dest,
+  ga: 'UA-101161440-1',
   themeConfig: {
     // algolia: {
     //   appId: 'NZE4QZHS92',
