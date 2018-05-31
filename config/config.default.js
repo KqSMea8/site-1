@@ -1,17 +1,17 @@
 const path = require('path')
 
-const dest = path.resolve(process.cwd(), 'site', '.vuepress', 'dist')
+const dest = path.resolve('site', '.vuepress', 'dist')
 
 module.exports = {
   title: 'Tiny.js',
   description: '一款轻量级 HTML5 2D 游戏引擎',
   dest,
   themeConfig: {
-    algolia: {
-      appId: 'NZE4QZHS92',
-      apiKey: '0acc1e4dc9914046cb3d5f4e0b1ffef1',
-      indexName: 'tinyjs'
-    },
+    // algolia: {
+    //   appId: 'NZE4QZHS92',
+    //   apiKey: '0acc1e4dc9914046cb3d5f4e0b1ffef1',
+    //   indexName: 'tinyjs'
+    // },
     nav: [{
       text: '文档',
       link: '/guide/'
