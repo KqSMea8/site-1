@@ -1,0 +1,27 @@
+git:
+  playground: https://github.com/ant-tinyjs/playground/archive/master.zip
+  examples:
+    - https://github.com/yiiqii/flappybird/archive/master.zip^flappybird
+    - https://github.com/yiiqii/airplane/archive/master.zip^airplane
+    - https://github.com/yiiqii/protectbee/archive/master.zip^protectbee^build
+    - https://github.com/yiiqii/running/archive/master.zip^running
+    - https://github.com/yiiqii/mole/archive/master.zip^mole
+    - https://github.com/zoolsher/doodle-jump/archive/master.zip^doodle-jump
+    - https://github.com/zoolsher/cuo-money/archive/master.zip^cuo-money
+    - https://github.com/Zz0819/snake/archive/master.zip^snake
+  plugins:
+    - https://github.com/ant-tinyjs/tinyjs-plugin-ui/archive/master.zip^tinyjs-plugin-ui
+    - https://github.com/ant-tinyjs/tinyjs-plugin-extract/archive/master.zip^tinyjs-plugin-extract
+    - https://github.com/ant-tinyjs/tinyjs-plugin-dust/archive/master.zip^tinyjs-plugin-dust
+    - https://github.com/ant-tinyjs/tinyjs-plugin-bitmap-text/archive/master.zip^tinyjs-plugin-bitmap-text
+    - https://github.com/ant-tinyjs/tinyjs-plugin-audio/archive/master.zip^tinyjs-plugin-audio
+    - https://github.com/ant-tinyjs/tinyjs-plugin-scroller/archive/master.zip^tinyjs-plugin-scroller
+    - https://github.com/ant-tinyjs/tinyjs-plugin-tiling/archive/master.zip^tinyjs-plugin-tiling
+    - https://github.com/ant-tinyjs/tinyjs-plugin-particles/archive/master.zip^tinyjs-plugin-particles
+    - https://github.com/ant-tinyjs/tinyjs-plugin-keyboard/archive/master.zip^tinyjs-plugin-keyboard
+    - https://github.com/ant-tinyjs/tinyjs-plugin-mesh/archive/master.zip^tinyjs-plugin-mesh
+    - https://github.com/qingyangmoke/tinyjs-plugin-dragonbones/archive/master.zip^tinyjs-plugin-dragonbones
+    - https://github.com/qingyangmoke/tinyjs-plugin-p2/archive/master.zip^tinyjs-plugin-p2
+    - https://github.com/qingyangmoke/tinyjs-plugin-ant/archive/master.zip^tinyjs-plugin-ant
+    - https://github.com/qingyangmoke/tinyjs-plugin-worldwrap/archive/master.zip^tinyjs-plugin-worldwrap
+    - https://github.com/qingyangmoke/tinyjs-plugin-weapon/archive/master.zip^tinyjs-plugin-weapon

@@ -1,0 +1,164 @@
+.plugins-wrapper {
+  width: 1136px;
+  padding-top: 20px;
+  margin: 0 auto;
+  .card-grid {
+    .card-cell {
+      width: 260px;
+      float: left;
+      position: relative;
+      padding: 12px;
+    }
+    .card-head {
+      position: relative;
+      z-index: 1;
+      height: 210px;
+      width: 220px;
+      margin: 0 auto;
+      overflow: hidden;
+      border-radius: 13px;
+      background-color: #2a3145;
+      box-shadow: 0 0 6px 0 #666;
+      &>[type="image"] {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 50%;
+      }
+      &>[type="video"] {
+        position: absolute;
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        height: auto;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        video {
+          height: 100%;
+          width: 100%;
+          display: inline-block;
+        }
+      }
+    }
+    .card-content {
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 0 30px 0 #d0d0d0;
+      overflow: hidden;
+      margin-top: -56px;
+      padding-top: 60px;
+      &>.flexbox {
+        height: 46px;
+        line-height: 46px;
+        .flexbox-item {
+          text-align: center;
+          button {
+            color: #3eaf7c;
+            font-size: 16px;
+          }
+        }
+      }
+    }
+    .card-detail {
+      padding: 0 20px;
+    }
+    .card-name {
+      font-size: 26px;
+      font-weight: 100;
+      height: 36px;
+      padding: 2px 0;
+      color: #000;
+      font-family: Verdana;
+    }
+    .card-desc {
+      font-size: 14px;
+      color: #a6a7aa;
+      height: 60px;
+      overflow-y: auto;
+    }
+    &::after {
+      content: " ";
+      display: block;
+      clear: both;
+    }
+  }
+  .plugins-iframe {
+    .frame-mask {
+      background-color: rgba(55, 55, 55, .5);
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      left: 0;
+      z-index: 1000;
+    }
+    .frame-container {
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      width: 960px;
+      transition: all .3s ease-in-out;
+      z-index: 1001;
+      background-color: #fff;
+      .frame-close-btn {
+        position: absolute;
+        z-index: 1002;
+        display: block;
+        left: -50px;
+        top: 0;
+        width: 48px;
+        height: 48px;
+        background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAACaElEQVR4Xu2aMUvDQBTH30vp4CJY3FxcnBz0C4ggSJcWkqGz6CA4+IEcXMS1JA6lUEQQN11cXAXBXXBL2uYk0kApSa/p3bs7yOt6vbz7/+7/7r32glDzD9ZcPzAAdkDNCXAK1NwAfAhyCnAK1JwAp0DNDcBVgFNANQV8379BxEsAeEuSpD0YDH5UnymbHwTBAQCMAGAbAM7DMLyTzSkbV3JAp9PZaTab33MP/0iS5IgSQrfb3W80Gi+IuDWL+xWG4a4VAL1eb2MymWQAWiYgFIgHIcQoiqK2FQBZUN/3DwHgGRE3KSEUiQcAZccppUAumBoClfhs/VoAUDqBUrxWABQQqMVrB6ATggnxJAB0QDAlngyACgST4kkBrAPBtHhyAFUgzErp01yHl01XrvOyBklbGVwWSNYnyMZlIlTGjQBY5oTpdHrteV5E3UmS/BiqSr5kpxcfQ277+YDGHCBpm/Nho+KNHIJFLgmC4AIAbhfGUs/z9vr9/mdVZ6l8nx2gQq/q3FqfAWWlLk3TK0R8MF3/880zkgKyOm+jAzQGQCY+X4gtCKQOWFW8TQhkAKqKtwWBBMC64m1A0A5AVbxpCFoBFIkXQryPx+OTdS5LTByM2gCUiY/j+Hg4HP5WbZpMOUELACrxJiAoA6AWTw1BCUDR3WCW86q2L0sX5+4GF2+HKcUvcYK92+HZX13/7wcIIV7jOD5VOfBWPSiz9wOEEI+I2BJCnEVRdL/q3MXvKaXAukFdmscAXNoNG2thB9ig7lJMdoBLu2FjLewAG9RdiskOcGk3bKyFHWCDuksx2QEu7YaNtdTeAX+MDSlfaK9muQAAAABJRU5ErkJggg==);
+        background-size: cover;
+        background-position: 0;
+        background-color: #fff;
+      }
+    }
+    &[show="true"] {
+      .frame-mask,
+      .frame-close-btn {
+        display: block;
+      }
+      .frame-container {
+        right: 0;
+      }
+    }
+    &[show="false"] {
+      .frame-mask,
+      .frame-close-btn {
+        display: none;
+      }
+      .frame-container {
+        right: -1010px;
+      }
+    }
+  }
+}
+
+@media (max-width: @MQMobileNarrow) {
+  .plugins-wrapper {
+    width: 100%;
+    .card-grid {
+      .card-cell {
+        width: 100%;
+        padding: 12px 30px;
+        box-sizing: border-box;
+      }
+    }
+    .plugins-iframe {
+      .frame-container {
+        width: 100%;
+        .frame-close-btn {
+          left: inherit;
+          right: 0;
+        }
+      }
+    }
+  }
+}

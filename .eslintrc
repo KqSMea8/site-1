@@ -1,0 +1,13 @@
+{
+  "root": true,
+  "extends": "plugin:vue-libs/recommended",
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "rules": {
+    "indent": ["error", 2, {
+      "MemberExpression": "off"
+    }]
+  }
+}

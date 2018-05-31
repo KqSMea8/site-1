@@ -1,0 +1,14 @@
+const _ = require('lodash')
+const {
+  ymlConfigParser
+} = require('../widgets/parser')
+
+module.exports = function () {
+  const data = ymlConfigParser('tools.yml')
+  const result = []
+  _.forIn(_.omit(data, ['_default']), function (value, key) {
+    result.push(key === 'README' ? '' : key)
+  })
+
+  return result
+}

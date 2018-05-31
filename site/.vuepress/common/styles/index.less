@@ -1,0 +1,34 @@
+@import "mixins";
+@import "page-playground";
+@import "page-examples";
+@import "page-plugins";
+@import "page-blogs";
+.flexbox {
+  .display-box;
+  .box-orient(horizontal);
+  .flexbox-item {
+    .box-sizing();
+    .box-flex(1);
+  }
+}
+
+.flexbox-v {
+  display: -webkit-box;
+  .box-orient(vertical);
+  .flexbox-item {
+    .box-sizing();
+    .box-flex(1);
+  }
+}
+
+.color-gray {
+  color: #999;
+}
+
+iframe {
+  padding: 0;
+  margin: 0;
+  border: none;
+  height: 100%;
+  width: 100%;
+}

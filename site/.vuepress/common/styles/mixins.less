@@ -1,0 +1,35 @@
+@accentColor: #3eaf7c;
+// responsive breakpoints
+@MQNarrow: 959px;
+@MQMobile: 719px;
+@MQMobileNarrow: 419px;
+
+.box-sizing(@sizing: border-box) {
+  -webkit-box-sizing: @sizing;
+}
+
+.display-box() {
+  display: -webkit-box;
+  display: -webkit-flex;
+}
+
+.box-flex(@scale: 1) {
+  -webkit-box-flex: @scale;
+  -webkit-flex: @scale;
+}
+
+.box-orient(@orient) {
+  -webkit-box-orient: @orient;
+  box-orient: @orient;
+}
+
+.box-align(@align: center) {
+  -webkit-box-align: @align;
+  -webkit-align-items: @align;
+}
+
+.background-position(@positionX:center, @positionY:center) {
+  background-size: 100% auto;
+  background-position: @positionX @positionY;
+  background-repeat: no-repeat;
+}
