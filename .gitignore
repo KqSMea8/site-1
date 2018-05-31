@@ -3,6 +3,7 @@ node_modules
 .DS_Store
 .vscode/
 .idea
+package-lock.json
 .temp/
 .static/
 .tiny_source_code/

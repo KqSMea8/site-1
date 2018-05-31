@@ -1,6 +1,9 @@
 # define variable
 siteReleaseGitHub        = https://github.com/ant-tinyjs/site-release.git
 
+install:
+	@npm install
+
 build:
   # build the .yml files to site/.vuepress/config.js
 	@node scripts/cli.js build
