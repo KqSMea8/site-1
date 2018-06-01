@@ -67,9 +67,8 @@ export default {
       return this.$page.frontmatter.examples;
     }
   },
-  created: function(){
+  mounted: function(){
     this.isMobile = mobile();
-    this.changeFramePath(this.examples['README'].uri);
     this.routeChangeHandler(this.$route);
   },
   watch: {

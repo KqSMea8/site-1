@@ -6,7 +6,6 @@
 
 <script>
 import Vue from "vue";
-import mobile from "is-mobile";
 
 export default {
   data() {

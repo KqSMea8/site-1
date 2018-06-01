@@ -112,10 +112,8 @@ export default {
       return this.$page.frontmatter.plugins;
     }
   },
-  created: function() {
-    this.isMobile = mobile();
-  },
   mounted: function() {
+    this.isMobile = mobile();
     setTimeout(() => {
       this.screenWidth = screen.availWidth
     });

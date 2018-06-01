@@ -24,7 +24,6 @@
 <script>
 import Vue from "vue";
 import _ from "lodash";
-import mobile from "is-mobile";
 
 export default {
   computed: {
