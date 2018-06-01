@@ -13,11 +13,11 @@ module.exports = async function () {
   // 解析配置文件
   const data = ymlConfigParser('external_resources.yml')
 
-  utils.hint('info', 'pull api...')
-  require('./pull-api')()
+  // utils.hint('info', 'pull api...')
+  // require('./pull-api')()
 
-  utils.hint('info', 'pull playground...')
-  await require('./pull-playground')(data.git.playground)
+  // utils.hint('info', 'pull playground...')
+  // await require('./pull-playground')(data.git.playground)
 
   // utils.hint('info', 'pull examples...')
   // await require('./pull-examples')(data.git.examples)

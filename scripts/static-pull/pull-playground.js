@@ -17,8 +17,8 @@ module.exports = async function (url) {
     unzip -q ${dir}.zip &&
     mv ${dir}-master ${dir} &&
     cd ${path.join(playgroundDir, dir)} &&
-    npm install --silent > npminstall.log &&
-    npm run build
+    tnpm install &&
+    tnpm run build
     `,
     true
   )

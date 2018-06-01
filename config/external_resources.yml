@@ -1,7 +1,7 @@
 git:
   playground: https://github.com/ant-tinyjs/playground/archive/master.zip
   examples:
-    - https://github.com/yiiqii/flappybird/archive/master.zip^flappybird
+    - https://github.com/yiiqii/flappybird/archive/master.zip^flappybird^build
     - https://github.com/yiiqii/airplane/archive/master.zip^airplane
     - https://github.com/yiiqii/protectbee/archive/master.zip^protectbee^build
     - https://github.com/yiiqii/running/archive/master.zip^running
