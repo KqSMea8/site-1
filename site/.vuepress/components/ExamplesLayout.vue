@@ -25,7 +25,7 @@
       <div class="examples-container flexbox-item" v-if="!isMobile">
         <div class="examples-content" :direction="frameDirection">
           <iframe
-            :src="`/static/examples/${framePath}`"
+            :src="framePath"
             :style="frameStyle"
             scrolling="no"
             allowtransparency="yes"
@@ -69,7 +69,7 @@ export default {
   },
   created: function(){
     this.isMobile = mobile();
-    this.framePath = this.examples['README'].uri;
+    this.changeFramePath(this.examples['README'].uri);
     this.routeChangeHandler(this.$route);
   },
   watch: {
@@ -78,6 +78,11 @@ export default {
     }
   },
   methods: {
+    changeFramePath(uri) {
+      setTimeout(() => {
+        this.framePath = `${location.origin}/static/examples/${uri}`;
+      });
+    },
     routeChangeHandler(to) {
       const name = to && to.path.match(/.*\/(.*)\.html$/i);
       let conf;
@@ -89,7 +94,9 @@ export default {
         conf = this.examples["README"];
         path = conf.uri;
       }
-      this.framePath = path;
+
+      this.changeFramePath(path)
+
       this.git = conf.git;
       this.frameDirection = conf.direction;
       if (conf.direction === "h") {

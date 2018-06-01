@@ -20,9 +20,9 @@ module.exports = async function (list) {
       unzip -q ${dir}.zip &&
       mv ${dir}-master ${dir} &&
       cd ${dir} &&
-      tnpm install &&
-      tnpm run build &&
-      tnpm run doc
+      npm install &&
+      npm run build &&
+      npm run doc
       `,
       true
     )

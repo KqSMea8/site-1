@@ -8,7 +8,7 @@ build:
   # build the .yml files to site/.vuepress/config.js
 	@node scripts/cli.js build
   # do vuepress build
-	@tnpm run build
+	@npm run build
   # copy .static files to the dist fold
 	@node scripts/cli.js post-build
 

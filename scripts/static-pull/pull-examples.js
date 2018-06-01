@@ -24,7 +24,7 @@ module.exports = async function (list) {
       true
     )
     if (build) {
-      await utils.shellExec(`cd ${path.join(examplesDir, dir)} && tnpm install && tnpm run build`, true)
+      await utils.shellExec(`cd ${path.join(examplesDir, dir)} && npm install && npm run build`, true)
       fs.copySync(
         `${path.join(examplesDir, dir, 'dist')}`,
         `${path.join(staticExamplesTempDir, dir)}`

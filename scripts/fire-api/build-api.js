@@ -19,7 +19,7 @@ module.exports = async function () {
     cd ${tinyDir} &&
     npm install &&
     cp -R ${path.join(jsdocTemplateDir, '*')} ${path.join(tinyDir, 'node_modules', 'jaguarjs-jsdoc')} &&
-    tnpm run doc
+    npm run doc
     `
   }
   await util.shellExec(cmd, true)
