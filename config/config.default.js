@@ -8,11 +8,10 @@ module.exports = {
   dest,
   ga: 'UA-101161440-1',
   themeConfig: {
-    // algolia: {
-    //   appId: 'NZE4QZHS92',
-    //   apiKey: '0acc1e4dc9914046cb3d5f4e0b1ffef1',
-    //   indexName: 'tinyjs'
-    // },
+    algolia: {
+      apiKey: 'b23658d51c5050259f4a14b6ca16929e',
+      indexName: 'tinyjs'
+    },
     nav: [{
       text: '文档',
       link: '/guide/'
