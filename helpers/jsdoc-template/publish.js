@@ -136,11 +136,10 @@ function generate (title, docs, filename, resolveLinks) {
     html = helper.resolveLinks(html) // turn {@link foo} into <a href="foodoc.html">foo</a>
 
     // Add a link target for external links @davidshimjs
+    html = html.toString().replace(/<a\s+([^>]*href\s*=\s*['"]*[^\s'"]*:\/\/)/ig, '<a target="_blank" $1')
     html = html.replace(/<a\s+href="([\s\S]+?)(\.html)/gim, function (match) {
       return match.indexOf('http://') === -1 ? match.toLowerCase() : match
     })
-    // match && (link = link.replace(match[1], match[1].toLowerCase()))
-    html = html.toString().replace(/<a\s+([^>]*href\s*=\s*['"]*[^\s'"]*:\/\/)/ig, '<a target="_blank" $1')
   }
 
   fs.writeFileSync(outpath, html, 'utf8')
