@@ -2,6 +2,20 @@ README:
   name: 简单的尝试一下
   url: playground/index.html#js=./codes/Playground.js
 
+realize:
+  type: dir
+  name: 简单实现
+  children:
+    p2balllottery:
+      name: 双色球摇奖
+      url: playground/index.html#js=./codes/physics/p2/ballLotteryTest.js
+    claw:
+      name: 抓娃娃
+      url: playground/index.html#js=./codes/realize/clawTest.js
+    starry:
+      name: 星空
+      url: playground/index.html#js=./codes/realize/starryTest.js
+
 displays:
   type: dir
   name: 显示对象
@@ -409,14 +423,3 @@ others:
     xhr:
       name: XMLHttpRequest请求
       url: playground/index.html#js=./codes/others/XHRTest.js
-
-realize:
-  type: dir
-  name: 简单实现
-  children:
-    p2balllottery:
-      name: 双色球摇奖
-      url: playground/index.html#js=./codes/physics/p2/ballLotteryTest.js
-    claw:
-      name: 抓娃娃
-      url: playground/index.html#js=./codes/realize/clawTest.js

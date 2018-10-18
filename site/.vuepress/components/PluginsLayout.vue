@@ -84,7 +84,7 @@
           scrolling="auto"
           width="100%"
           height="100%"
-          frameborde="0"
+          frameborder="0"
           allowtransparency="yes"
           ></iframe>
       </div>
