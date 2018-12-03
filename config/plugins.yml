@@ -12,57 +12,57 @@ _default:
 
 tinyjs-plugin-ui:
   name: ui
-  cdn: https://gw.alipayobjects.com/as/g/tiny-plugins/tinyjs-plugin-ui/0.1.5/index.js
+  cdn: https://gw.alipayobjects.com/as/g/tiny-plugins/tinyjs-plugin-ui/0.2.0/index.js
   desc: UI 插件，快速创建按钮、富样式DOM等
   image: https://zos.alipayobjects.com/rmsportal/nJBojwdMJfUqpCWvwyoA.png
 
 tinyjs-plugin-extract:
   name: extract
-  cdn: https://gw.alipayobjects.com/as/g/tiny-plugins/tinyjs-plugin-extract/1.0.7/index.js
+  cdn: https://gw.alipayobjects.com/as/g/tiny-plugins/tinyjs-plugin-extract/1.1.0/index.js
   desc: 画布扩展，获取画布的：Image 对象、base64 格式的图片、像素值等等
   image: https://zos.alipayobjects.com/rmsportal/nJBojwdMJfUqpCWvwyoA.png
 
 tinyjs-plugin-audio:
   name: audio
-  cdn: https://gw.alipayobjects.com/as/g/tiny-plugins/tinyjs-plugin-audio/1.1.1/index.js
+  cdn: https://gw.alipayobjects.com/as/g/tiny-plugins/tinyjs-plugin-audio/1.2.0/index.js
   desc: Tiny.js 音效插件
   image: https://gw.alipayobjects.com/zos/rmsportal/zMJQKshtlGCcVfGJcpvk.jpg
 
 tinyjs-plugin-bitmap-text:
-  cdn: https://gw.alipayobjects.com/as/g/tiny-plugins/tinyjs-plugin-bitmap-text/0.0.4/index.js
+  cdn: https://gw.alipayobjects.com/as/g/tiny-plugins/tinyjs-plugin-bitmap-text/0.1.0/index.js
   desc: 位图文字
   image: https://gw.alipayobjects.com/zos/rmsportal/phHqiahVFMthpTCIGPBz.png
 
 tinyjs-plugin-scroller:
-  cdn: https://gw.alipayobjects.com/as/g/tiny-plugins/tinyjs-plugin-scroller/0.0.2/index.js
+  cdn: https://gw.alipayobjects.com/as/g/tiny-plugins/tinyjs-plugin-scroller/0.1.0/index.js
   desc: 滚动插件
   video: http://p.tb.cn/rmsportal_8509_scroll.mov
 
 tinyjs-plugin-tiling:
   name: tiling
-  cdn: https://gw.alipayobjects.com/as/g/tiny-plugins/tinyjs-plugin-tiling/0.0.3/index.js
+  cdn: https://gw.alipayobjects.com/as/g/tiny-plugins/tinyjs-plugin-tiling/0.1.0/index.js
   desc: A fast way of rendering a tiling image
   video: http://p.tb.cn/rmsportal_8509_tile.mov
 
 tinyjs-plugin-dust:
-  cdn: https://gw.alipayobjects.com/as/g/tiny-plugins/tinyjs-plugin-dust/0.0.6/index.js
+  cdn: https://gw.alipayobjects.com/as/g/tiny-plugins/tinyjs-plugin-dust/0.1.0/index.js
   desc: 简单粒子
   video: http://p.tb.cn/rmsportal_8509_dust.mov
 
 tinyjs-plugin-mesh:
   name: mesh
-  cdn: https://gw.alipayobjects.com/as/g/tiny-plugins/tinyjs-plugin-mesh/0.0.4/index.js
+  cdn: https://gw.alipayobjects.com/as/g/tiny-plugins/tinyjs-plugin-mesh/1.0.0/index.js
   desc: 网格插件
   video: https://gw.alipayobjects.com/os/rmsportal/rfKURkKcjYxfesbTesGi.mp4
 
 tinyjs-plugin-particles:
   name: particles
-  cdn: https://gw.alipayobjects.com/as/g/tiny-plugins/tinyjs-plugin-particles/0.0.3/index.js
+  cdn: https://gw.alipayobjects.com/as/g/tiny-plugins/tinyjs-plugin-particles/0.1.0/index.js
   desc: A really fast type of the Container built solely for speed
   image: https://gw.alipayobjects.com/zos/rmsportal/brKZyDOVAeAWANqnORVf.png
 
 tinyjs-plugin-keyboard:
-  cdn: https://gw.alipayobjects.com/as/g/tiny-plugins/tinyjs-plugin-keyboard/0.0.2/index.js
+  cdn: https://gw.alipayobjects.com/as/g/tiny-plugins/tinyjs-plugin-keyboard/0.1.0/index.js
   desc: 键盘控制
   image: https://gw.alipayobjects.com/zos/rmsportal/NocaNAexyTeRSjEQBfxl.png
 

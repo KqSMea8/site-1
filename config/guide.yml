@@ -111,6 +111,9 @@ advanced-graphics:
     - path: advanced/graphics/roundedrect
       name: 圆角矩形
       link: tiny/docs:tutorial/advanced/graphics/roundedrect.md
+    - path: advanced/graphics/star
+      name: 星形
+      link: tiny/docs:tutorial/advanced/graphics/star.md
     - path: advanced/graphics/line
       name: 直线
       link: tiny/docs:tutorial/advanced/graphics/line.md

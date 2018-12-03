@@ -20,6 +20,9 @@ displays:
   type: dir
   name: 显示对象
   children:
+    container:
+      name: Container
+      url: playground/index.html#js=./codes/displays/containerTest.js
     getbounds:
       name: 获取容器的 Bound
       url: playground/index.html#js=./codes/displays/getBoundsTest.js
@@ -169,6 +172,19 @@ application:
       name: 渲染的监听
       url: playground/index.html#js=./codes/application/rendererListenTest.js
 
+texture:
+  type: dir
+  name: 纹理
+  children:
+    swap:
+      name: 纹理切换
+      url: playground/index.html#js=./codes/texture/swapTest.js
+    basicrendertexture:
+      name: 基础 RenderTexture
+      url: playground/index.html#js=./codes/texture/renderTextureBasicTest.js
+    rendertexture:
+      name: RenderTexture
+      url: playground/index.html#js=./codes/texture/renderTextureTest.js
 ui:
   type: dir
   name: UI
@@ -361,6 +377,9 @@ mask:
     basic:
       name: 基础使用
       url: playground/index.html#js=./codes/mask/basicTest.js
+    rendertexture:
+      name: 渲染纹理
+      url: playground/index.html#js=./codes/mask/maskRenderTextureTest.js
     imageshape:
       name: 位图形状
       url: playground/index.html#js=./codes/mask/imageShapeTest.js
