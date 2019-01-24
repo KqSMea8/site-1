@@ -19,7 +19,7 @@
     "request": "^2.85.0",
     "request-promise": "^4.2.2",
     "shelljs": "^0.8.1",
-    "vuepress": "^0.10.0",
+    "vuepress": "0.10.0",
     "webpack": "^4.8.1"
   },
   "engines": {

@@ -4,6 +4,15 @@
     :class="pageClasses"
     @touchstart="onTouchStart"
     @touchend="onTouchEnd">
+    <script>
+      var img = new Image();
+      img.src = 'http://tinyjs.alibaba.net/assets/img/search.83621669.svg';
+      img.onload = function(){
+        if(window.location.hostname === 'tinyjs.net'){
+          window.location.replace(window.location.href.replace('tinyjs.net', 'tinyjs.alibaba.net'));
+        }
+      };
+    </script>
     <Navbar v-if="shouldShowNavbar" @toggle-sidebar="toggleSidebar"/>
     <div class="sidebar-mask" @click="toggleSidebar(false)"></div>
     <Sidebar :items="sidebarItems" @toggle-sidebar="toggleSidebar">
