@@ -11,7 +11,7 @@
         <div class="action download-action">
           <el-popover
             placement="bottom"
-            width="520"
+            width="560"
             trigger="click">
             <template>
               <div class="download-item">

@@ -7,7 +7,7 @@ git:
     - https://github.com/yiiqii/running/archive/master.zip^running
     - https://github.com/yiiqii/mole/archive/master.zip^mole
     - https://github.com/zoolsher/doodle-jump/archive/master.zip^doodle-jump
-    - https://github.com/zoolsher/cuo-money/archive/master.zip^cuo-money
+    - https://github.com/zoolsher/cuo-money/archive/master.zip^cuo-money^build
     - https://github.com/Zz0819/snake/archive/master.zip^snake
   plugins:
     - https://github.com/ant-tinyjs/tinyjs-plugin-ui/archive/master.zip^tinyjs-plugin-ui
@@ -16,6 +16,7 @@ git:
     - https://github.com/ant-tinyjs/tinyjs-plugin-bitmap-text/archive/master.zip^tinyjs-plugin-bitmap-text
     - https://github.com/ant-tinyjs/tinyjs-plugin-audio/archive/master.zip^tinyjs-plugin-audio
     - https://github.com/ant-tinyjs/tinyjs-plugin-scroller/archive/master.zip^tinyjs-plugin-scroller
+    - https://github.com/ant-tinyjs/tinyjs-plugin-accessibility/archive/master.zip^tinyjs-plugin-accessibility
     - https://github.com/ant-tinyjs/tinyjs-plugin-tiling/archive/master.zip^tinyjs-plugin-tiling
     - https://github.com/ant-tinyjs/tinyjs-plugin-particles/archive/master.zip^tinyjs-plugin-particles
     - https://github.com/ant-tinyjs/tinyjs-plugin-keyboard/archive/master.zip^tinyjs-plugin-keyboard

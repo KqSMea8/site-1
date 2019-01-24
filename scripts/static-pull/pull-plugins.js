@@ -21,16 +21,20 @@ module.exports = async function (list) {
       mv ${dir}-master ${dir} &&
       cd ${dir} &&
       tnpm install &&
-      tnpm run build &&
-      tnpm run doc
+      npm run build &&
+      npm run doc
       `,
       true
     )
-    for (const uri of ['demo', 'dist', 'docs']) {
-      fs.copySync(
-        `${path.join(pluginsDir, dir, uri)}`,
-        `${path.join(staticPluginsTempDir, dir, uri)}`
-      )
+    for (const uri of ['demo', 'dist', 'index.js', 'index.debug.js', 'docs']) {
+      const src = path.join(pluginsDir, dir, uri)
+
+      if (fs.existsSync(src)) {
+        fs.copySync(
+          `${src}`,
+          `${path.join(staticPluginsTempDir, dir, uri)}`
+        )
+      }
     }
     utils.hint(`<${dir}> pull&copy finished.`)
   }

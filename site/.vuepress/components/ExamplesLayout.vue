@@ -79,7 +79,7 @@ export default {
   methods: {
     changeFramePath(uri) {
       setTimeout(() => {
-        this.framePath = `${location.origin}/static/examples/${uri}`;
+        this.framePath = `${location.origin}/static/examples/${uri}/`;
       });
     },
     routeChangeHandler(to) {

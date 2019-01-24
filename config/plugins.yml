@@ -38,6 +38,12 @@ tinyjs-plugin-scroller:
   desc: 滚动插件
   video: http://p.tb.cn/rmsportal_8509_scroll.mov
 
+tinyjs-plugin-accessibility:
+  name: accessibility
+  cdn: https://gw.alipayobjects.com/as/g/tiny-plugins/tinyjs-plugin-accessibility/0.0.1/index.js
+  desc: 提供给特殊人群的可访问性渲染插件
+  image: https://zos.alipayobjects.com/rmsportal/nJBojwdMJfUqpCWvwyoA.png
+
 tinyjs-plugin-tiling:
   name: tiling
   cdn: https://gw.alipayobjects.com/as/g/tiny-plugins/tinyjs-plugin-tiling/0.1.0/index.js
@@ -45,7 +51,7 @@ tinyjs-plugin-tiling:
   video: http://p.tb.cn/rmsportal_8509_tile.mov
 
 tinyjs-plugin-dust:
-  cdn: https://gw.alipayobjects.com/as/g/tiny-plugins/tinyjs-plugin-dust/0.1.0/index.js
+  cdn: https://gw.alipayobjects.com/os/lib/tinyjs-plugin-dust/0.1.5/index.js
   desc: 简单粒子
   video: http://p.tb.cn/rmsportal_8509_dust.mov
 

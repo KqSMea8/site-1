@@ -3,8 +3,8 @@ home: true
 heroImage: https://zos.alipayobjects.com/rmsportal/nJBojwdMJfUqpCWvwyoA.png@160w
 actionText: 快速开始 →
 actionLink: /guide/start
-tiny: https://gw.alipayobjects.com/as/g/tiny/tiny/1.2.1/tiny.js
-tinyd: https://gw.alipayobjects.com/as/g/tiny/tiny/1.2.1/tiny.debug.js
+tiny: https://gw.alipayobjects.com/os/lib/tinyjs/tiny/1.2.4/tiny.js
+tinyd: https://gw.alipayobjects.com/os/lib/tinyjs/tiny/1.2.4/tiny.debug.js
 features:
 - title: 简单
   details: 轻量级且接口友好，易于上手

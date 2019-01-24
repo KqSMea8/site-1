@@ -271,7 +271,8 @@ extras:
 qa:
   source: lark
   name: 常见问题
-  link: tinyjs/alipay:summary
+  # link: tinyjs/alipay:summary
+  link: tinyjs/alipay:summary_outer
 
 resources:
   name: 资源下载
